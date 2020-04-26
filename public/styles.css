@@ -1,0 +1,80 @@
+
+.navbar{
+  padding: 0 0 0 4.5rem;
+}
+
+.logo{
+  height:50px;
+  width: 100px;
+}
+
+
+
+.nav-item{
+  padding: 0 3rem;
+
+}
+
+.nav-link{
+  font-size: 1.2rem;
+
+}
+
+.welcome-h1{
+  color: #4cd3c2;
+  margin-top: 30%;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+.title-image{
+  height: 35em;
+  width: 45em;
+}
+
+#features{
+  background-color: #4cd3c2;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 3em 15em;
+  color: #fff;
+}
+
+#carousel{
+
+  text-align: center;
+}
+
+ h2{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #4cd3c2;
+}
+
+.carousel-item{
+  padding:7% 15%;
+}
+
+.carousel-item p{
+
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+img.displayed{
+  display: block;
+  height: 25rem;
+  width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+  text-align: center;
+  background-color: #363062;
+  height: 8%;
+  width: 100%;
+}
