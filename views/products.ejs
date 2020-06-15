@@ -1,0 +1,23 @@
+<%-include("header") %>
+
+<header class="container-fluid "> 
+    <div class="row">
+        <% products.forEach(function(product) { %>
+            <div class="col-lg-3 col-md-5  mt-5">
+                <a href="/product">
+                    <img class="image-fluid products-image" src="<%=product%>" alt="">
+                </a>
+                <div class="overlay">
+                    <button type="button" class="btn btn-info" title="Save"><i class="fas fa-bookmark"></i></button>
+                    <button type="button" class="btn btn-info" title="Add to Cart"><i class="fas fa-cart-plus"></i></button>
+                    <button type="button" class="btn btn-info">Buy Now</button>
+                </div>
+                <h4>Painting of Radha Krishna</h4>
+                <p><i class="fas fa-rupee-sign"></i><strong>750.00</strong></p>
+            </div>
+            
+        <% }) %> 
+    </div>
+</header>
+
+<%- include("footer") %> 
